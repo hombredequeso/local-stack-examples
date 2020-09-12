@@ -1,0 +1,8 @@
+{
+  "Id": {
+    "S": "123456"
+  },
+  "Description": {
+    "S": "hello world"
+  }
+}

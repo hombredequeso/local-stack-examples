@@ -1,0 +1,20 @@
+{
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "Id",
+            "AttributeType": "B"
+        }
+    ],
+    "TableName": "example2DynamoTable",
+    "KeySchema": [
+        {
+            "AttributeName": "Id",
+            "KeyType": "HASH"
+        }
+    ],
+    "BillingMode": "PROVISIONED",
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 1,
+        "WriteCapacityUnits": 1
+    }
+}

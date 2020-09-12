@@ -1,0 +1,10 @@
+{
+    "TableName": "exampleDynamoTable",
+    "BillingMode": "PAY_PER_REQUEST",
+    "KeySchema": [
+      { "AttributeName": "Id", "KeyType": "HASH" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "Id", "AttributeType": "S" }
+    ]
+}
